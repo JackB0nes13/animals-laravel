@@ -23,8 +23,3 @@ Route::get('/animals/list/', [AnimalController::class, 'alphabetical']);
 Route::get('/animals/get/{animal:id}', [AnimalController::class, 'byId']);
 
 
-//Route::get('/a', function () {
-    //return view('welcome', [
-    //    'welcome' => Animal::all()
-  //   ]);
-//});
